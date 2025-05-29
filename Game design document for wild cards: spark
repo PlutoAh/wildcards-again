@@ -1,0 +1,47 @@
+WCS is a creature battle card combat game that intends on merging the card play and dynamism of games like Magic the gathering with the battle depth and decision making in games like Pokemon.
+
+The game (unlike Magic) will revolve around a single type of card, the critter. A critter card can be called upon and placed on field, where it will represent a creature of the real world with stats and mechanics that attempt to mirror what they normally do in their
+natural habitats. The game (unlike Pokemon) won’t focus on elemental combat or rock-paper-scissors dynamics that dictate how the game should be played for you, instead trying to create mechanics that organically interact with eachother in a unique and free-form way.
+
+WCS (unlike Pokemon) will try to keep stat numbers simple and low, with the health points of a bulky critter being around 6 instead of 600; but (unlike Magic), the game will up the complexity of individual creature interactions by having 4 main stats that dictate
+how a creature plays: health, attack, defense and size. While the others are self explanatory, size is a wholly original battle mechanic not present in any games WCS took inspiration from. The following paragraph will exemplify through narration how a duel between
+creatures might play out.
+
+	After drawing your first five cards, you decide the cheerleader crab will be your best starting  option: it’s attack stat is equal to how many cards you have in hand, and by playing it, you’ll be left with four cards on hand, therefore it’s attack will deal 4 damage.
+Not too shabby. After summoning it, you end your turn. The opponent summons a bullfrog and moves it to the battlefield, hoping to draw your crab into a duel, since it knows the longer your critter stays alive the more time you’ll have to stack up cards in hand,
+and the deadlier the crab will become. Since the bullfrog is already in the battlefield, by advancing into it with your crab, you’ll be able to get an attack in before it has a chance to react, so you do just that, hitting it for 2 damage. The bullfrog doesn’t
+have any defense, but the size difference between the critters makes it so it takes two less damage from each of your attacks. Before ending your turn, you spend your last action making your crab go into a parry state, where it will try to block the enemy’s
+next attack. It’s the opponent’s turn, and they attack your crab with their frog, dealing extra damage due to the size difference... but, the crab’s defenses and parry manage to make it live on one singular point of health. It’s your turn again and, by drawing
+another card, you raise the cheerleader crab’s attack stat enough to make it take down the bullfrog in just another attack, so you do it. You attack the bullfrog using your crab that, now with 5 attack, deals 3 damage after taking size difference into
+consideration, defeating the bullfrog.
+
+/elaborate on how you accumulate actions per turn and can spend one action per critter per turn
+
+// ideas tab
+
+explain mating call
+
+(the game aims to merge the depth of individual creature interactions in Pokemon with the emerging complexity and synergies across your deck in Magic)
+
+future games may be called wild cards: blaze (for a bigger more intense scale) or wild cards: reactions (for a game focused on domino effects and chains of reactions)
+
+for the benefit of game-play, some of the critters will have effects based on cultural significance instead of the normal behaviors found in the animal that inspired it, like the bleeding heart dove, that could have mechanics based on blood,
+even though the red marking on it’s chest is only a way to attract mates.
+
+(maybe all actions go at the end of the turn?? maybe??)
+
+
+req for the gameloop:
+
+select between (actions) play a card, discarding, ending turn or interacting with critters
+(maybe in like a hand of four, where each card is one option)
+like in persona, the camera moves around with each selection
+
+there should also be hotkeys for ending turn (space) playing card (p) discarding (d) and interacting with critters (I), and an advanced hand that plays and discards dynamically.
+
+State where you select cards from hand.
+
+State where you select critters from field (the critters that are s electable are not all).
+Maybe things for logic are stored in a dictionary, like if they are enemy, ally or above or bellow a certain size.
+
+State where you select critter actions from a menu.
